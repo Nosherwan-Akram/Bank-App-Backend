@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "~/routes": ["./routes"],
+      "~/controllers": ["./controllers"],
+      "~/configs": ["./configs"],
+      "~/models": ["./models"],
+      "~/types": ["./types"],
+      "~/errors": ["./errors"],
+      "~/helpers": ["./helpers"],
+      "~/lib": ["./lib"],
+      "~/middleware": ["./middleware"],
+      "~/loaders": ["./loaders"],
+      "~/validators": ["./validators"],
+      "~/events": ["./app-events"],
+      "~/scripts": ["./scripts"]
+    },
+    "allowJs": false,
+    "strict": true,
+    "declaration": true,
+    "types": ["node"],
+    "lib": ["ES2017", "ES6", "ES7", "DOM"],
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "target": "ESNext",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "outDir": "dist"
+  },
+  "exclude": ["node_modules", "dist"]
+}
